@@ -1,0 +1,23 @@
+/* TEAM */
+	Designer: Gustavo Marques
+	Contact: gutooh@gmail.com
+	URL: http://www.gustavomarques.com.br
+	Twitter: @twitter
+	From: Brazil, Brasília
+	
+	Web Standards: Joao Stein
+	Contact: joaosteing@gmail.com / joaosteing@hostdesk.com.br
+	URL: http://www.joaostein.com.br / http://www.hostdesk.com.br
+	Twitter: @joaostein
+	From: Brazil, Brasília
+	
+	Developer: Rafael Cavalcanti
+	Contact: rafael@hostdesk.com.br
+	URL: http://www.hostdesk.com.br
+	Twitter: @twitter
+	From: Brazil, Brasília
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: Modernizr, jQuery
+  Software: Wordpress
