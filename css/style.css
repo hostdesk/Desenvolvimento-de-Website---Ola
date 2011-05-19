@@ -102,9 +102,8 @@ body {
 /*---- Menu Topo Principal & Logo ----*/
 
 #navTopContainer {
-	height: 51px;
 	width: 100%;
-	background: url(../img/navTopBg.png) repeat-x;
+	background: url(../img/navTopBg.png) top center repeat-x;
 }
 
 .itemLeft {
@@ -122,6 +121,8 @@ body {
 #navTop nav {
 	position: relative;
 	z-index: 3;
+	height: 51px;
+	margin-bottom: 9px;
 }
 
 #navTop ul li {
@@ -164,6 +165,68 @@ body {
 	display: block;
 }
 
+/*---- Busca Rápida & Guia de Serviços ----*/
+
+#buscaRapida {
+	float: left;
+	background: url(../img/buscaRapida.png) top left no-repeat;
+	padding-left: 10px;
+	color: #282828;
+	width: 317px;
+}
+
+#guiaServicosTop {
+	background: url(../img/guiaServicosTop.png) top right no-repeat;
+	float: right;
+	width: 265px;
+	padding-left: 62px;
+	color: #fff;
+}
+
+#pesquisaTop div {
+	height: 72px;
+	padding-top: 7px;
+}
+
+#pesquisaTop h3 {
+	font-family: 'anivers';
+	font-size: 18px;
+	font-weight: normal;
+}
+
+#pesquisaTop input {
+	margin: 0;
+	padding: 0;
+	border: none;
+	background: transparent;
+	font-size: 10px;
+	font-family: verdana;
+	color: #353535;
+	margin-top: 3px;
+}
+
+#buscaRapida .busca {
+	margin-left: 15px;
+}
+
+#guiaServicosTop .busca {
+	margin-left: -12px;
+}
+
+#pesquisaTop .busca {
+	width: 220px;
+	margin-right: 10px;
+}
+
+#pesquisaTop .pesquisar {
+	margin-top: 0;
+	width: 30px;
+	padding: 9px 0;
+	text-indent: -99999px;
+}
+
+
+
 
 
 
@@ -185,20 +248,6 @@ body {
 .clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }
 .clearfix:after { clear: both; }
 .clearfix { zoom: 1; }
-
-
-@media all and (orientation:portrait) {
-
-}
-
-@media all and (orientation:landscape) {
-
-}
-
-@media screen and (max-device-width: 480px) {
-  
-  /* html { -webkit-text-size-adjust:none; -ms-text-size-adjust:none; } */
-}
 
 
 @media print {

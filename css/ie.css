@@ -1,0 +1,19 @@
+/*---- IE8 ----*/
+
+.ie8 #pesquisaTop input {
+	font-size: 9px;
+	margin-top: 2px;
+}
+
+/*---- IE7 ----*/
+
+.ie7 #pesquisaTop input {
+	margin-top: 1px;
+	font-size: 9px;
+}
+
+.ie7 #pesquisaTop .pesquisar {
+	font-size: 0;
+	line-height: 0;
+	height: 31px;
+}
