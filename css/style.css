@@ -82,6 +82,88 @@ a:hover { color: #036; }
  */
 
 
+/*---- Geral ----*/
+
+body {
+	background: black url(../img/cloudBg.jpg) top center repeat-x;
+}
+
+@font-face {
+    font-family: 'anivers';
+    src: url('fonts/Anivers_Regular-webfont.eot');
+    src: url('fonts/Anivers_Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Anivers_Regular-webfont.woff') format('woff'),
+         url('fonts/Anivers_Regular-webfont.ttf') format('truetype'),
+         url('fonts/Anivers_Regular-webfont.svg#') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*---- Menu Topo Principal & Logo ----*/
+
+#navTopContainer {
+	height: 51px;
+	width: 100%;
+	background: url(../img/navTopBg.png) repeat-x;
+}
+
+.itemLeft {
+	float: left;
+}
+
+.itemRight {
+	float: right;
+}
+
+#navTop {
+	position: relative;
+}
+
+#navTop nav {
+	position: relative;
+	z-index: 3;
+}
+
+#navTop ul li {
+	margin-left: 37px;
+}
+
+#navTop ul li:first-child {
+	margin: 0;
+}
+
+#navTop ul li a {
+	font-size: 21px;
+	color: #fff;
+	font-family: 'anivers';
+	text-decoration: none;
+	display: block;
+	padding: 12px 0;
+}
+
+#navTop ul li a:hover {
+	color: #efae00;
+}
+
+#logo {
+	width: 416px;
+	height: 141px;
+	background: url(../img/logo.png) no-repeat;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -208px;
+	z-index: 2;
+}
+
+#logo a {
+	margin-left: 96px;
+	margin-right: 40px;
+	width: 220px;
+	height: 134px;
+	display: block;
+}
+
 
 
 
