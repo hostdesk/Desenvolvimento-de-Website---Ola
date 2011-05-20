@@ -84,8 +84,8 @@ a:hover { color: #036; }
 
 /*---- Geral ----*/
 
-body {
-	background: black url(../img/cloudBg.jpg) top center repeat-x;
+html {
+	background: url(../img/cloudBg.jpg) top center repeat-x;
 }
 
 @font-face {
