@@ -104,6 +104,7 @@ html {
 #navTopContainer {
 	width: 100%;
 	background: url(../img/navTopBg.png) top center repeat-x;
+	margin-bottom: 20px;
 }
 
 .itemLeft {
