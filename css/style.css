@@ -88,6 +88,10 @@ html {
 	background: url(../img/cloudBg.jpg) top center repeat-x;
 }
 
+body {
+	padding-bottom: 300px;
+}
+
 @font-face {
     font-family: 'anivers';
     src: url('fonts/Anivers_Regular-webfont.eot');
@@ -234,6 +238,7 @@ html {
 #pagerContainer {
 	background: url(../img/pagerPatternBg.jpg) top repeat-x;
 	margin-top: 15px;
+	height: 153px;
 }
 
 #destaque {
@@ -272,6 +277,7 @@ html {
 	-webkit-box-shadow: 1px 2px 2px #333233;
 	box-shadow: 1px 2px 2px #333233;
 }
+
 
 /*---- Carousel Paginador Home -----*/
 
@@ -370,6 +376,67 @@ html {
     background-position: 0px -74px;
 }
 
+
+/*---- Áreas que tenham Filtros ----*/
+
+#comprarHome header {
+	background: url(../img/filtroComprarTop.png) top center no-repeat;
+	width: 980px;
+	height: 53px;
+}
+
+.filtro h2, .filtro form label {
+	float: left;
+	display: block;
+	font-family: 'anivers';
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+
+.filtro h2 {
+	width: 140px;
+	height: 42px;
+	font-size: 24px;
+	color: #125892;
+	padding: 11px 0px 0px 20px;
+}
+
+.filtro form {
+	float: left;
+	width: 800px;
+	height: 53px;
+}
+
+.filtro form label {
+	width: 65px;
+	height: 41px;
+	font-size: 14px;
+	color: white;
+	padding: 12px 0px 0px 15px;
+}
+
+.filtro form select {
+	float: left;
+	width: 98px;
+	margin: 10px 8px 0 10px;
+	font-size: 10px;
+}
+
+.filtro .filtrar {
+	text-indent: -99999px;
+	display: block;
+	width: 40px;
+	height: 40px;
+	float: left;
+	border: 0;
+	padding: 12px;
+	margin-left: 20px;
+	background: transparent;
+}
+
+
+/*---- Comprar - Home ----*/
 
 
 
