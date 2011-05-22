@@ -99,6 +99,7 @@ html {
     font-style: normal;
 }
 
+
 /*---- Menu Topo Principal & Logo ----*/
 
 #navTopContainer {
@@ -166,6 +167,7 @@ html {
 	display: block;
 }
 
+
 /*---- Busca Rápida & Guia de Serviços ----*/
 
 #buscaRapida {
@@ -227,6 +229,146 @@ html {
 }
 
 
+/*---- Destaque Home ----*/
+
+#pagerContainer {
+	background: url(../img/pagerPatternBg.jpg) top repeat-x;
+	margin-top: 15px;
+}
+
+#destaque {
+	height: 300px;
+	overflow: hidden;
+}
+
+#destaque a {
+	margin-left: 10px;
+}
+
+#destaque a img, .pager li img  {
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.pager {
+	list-style: none;
+}
+
+.pager li {
+	float: left;
+	opacity: .5;
+}
+
+.pager li:first-child {
+	margin-left: 0;
+}
+
+.pager .activeSlide {
+	opacity: 1;
+}
+
+.pager .activeSlide img {
+	-moz-box-shadow: 1px 2px 2px #333233;
+	-webkit-box-shadow: 1px 2px 2px #333233;
+	box-shadow: 1px 2px 2px #333233;
+}
+
+/*---- Carousel Paginador Home -----*/
+
+.jcarousel-skin-tango .jcarousel-container {
+	background: url(../img/pagerBg.jpg) top center no-repeat;
+	height: 101px;
+	width: 795px;
+	padding: 5px 80px 47px 75px;
+}
+
+.jcarousel-skin-tango .jcarousel-direction-rtl {
+	direction: rtl;
+}
+
+.jcarousel-skin-tango .jcarousel-clip {
+    overflow: hidden;
+}
+
+.jcarousel-skin-tango .jcarousel-clip-horizontal {
+	width: 794px;
+}
+
+.jcarousel-skin-tango .jcarousel-item {
+    width: 180px;
+    height: 104px;
+		margin-right: 10px;
+		margin-left: 10px;
+}
+
+.jcarousel-skin-tango .jcarousel-item:first-child {
+	margin-left: 10px;
+}
+
+.jcarousel-skin-tango .jcarousel-item-placeholder {
+    background: #fff;
+    color: #000;
+}
+
+/**
+ *  Horizontal Buttons
+ */
+
+.jcarousel-skin-tango .jcarousel-next-horizontal {
+    position: absolute;
+    top: 35px;
+    right: 35px;
+    width: 25px;
+    height: 37px;
+    cursor: pointer;
+    background: url(../img/nextPrevCarousel.png) -25px 0 no-repeat;
+}
+
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-next-horizontal {
+    left: 5px;
+    right: auto;
+}
+
+.jcarousel-skin-tango .jcarousel-next-horizontal:hover,
+.jcarousel-skin-tango .jcarousel-next-horizontal:focus {
+    background-position: -25px -37px;
+}
+
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal,
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:hover,
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:focus,
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:active {
+    cursor: default;
+    background-position: -25px -74px;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-horizontal {
+    position: absolute;
+    top: 35px;
+    left: 35px;
+    width: 25px;
+    height: 37px;
+    cursor: pointer;
+    background: url(../img/nextPrevCarousel.png) 0 0 no-repeat;
+}
+
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-prev-horizontal {
+    left: auto;
+    right: 5px;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-horizontal:hover, 
+.jcarousel-skin-tango .jcarousel-prev-horizontal:focus {
+    background-position: 0px -37px;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal,
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:hover,
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:focus,
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:active {
+    cursor: default;
+    background-position: 0px -74px;
+}
 
 
 

@@ -5,6 +5,14 @@
 	margin-top: 2px;
 }
 
+.ie8 .pager li {
+	filter: alpha(opacity=50);
+}
+
+.ie8 .pager .activeSlide {
+	filter: alpha(opacity=100);
+}
+
 /*---- IE7 ----*/
 
 .ie7 #pesquisaTop input {
@@ -16,4 +24,12 @@
 	font-size: 0;
 	line-height: 0;
 	height: 31px;
+}
+
+.ie7 .pager li {
+	filter: alpha(opacity=50);
+}
+
+.ie7 .pager .activeSlide {
+	filter: alpha(opacity=100);
 }
