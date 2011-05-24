@@ -552,7 +552,6 @@ body {
 	background: #f6f6f6;
 	border: 1px solid #cfcfcf;
 	border-top: none;
-	height: 375px;
 }
 
 #alugarHome .filtroPagerBg {
@@ -565,6 +564,145 @@ body {
 	border-right: 1px solid #cfcfcf;
 }
 
+/*----- Títulos da Tabela de alugar -----*/
+
+#alugarHome hgroup h3 {
+	float: left;
+	width: 100px;
+	font-family: 'anivers';
+	color: #efae00;
+	font-size: 18px;
+	margin-right: 2px;
+	margin-bottom: 13px;
+	height: 20px;
+}
+
+#alugarHome hgroup .localizacao {
+	width: 427px;
+}
+
+#alugarHome hgroup .bairro {
+	width: 158px;
+}
+
+#alugarHome hgroup .valor {
+	width: 72px;
+	padding-left: 5px;
+}
+
+#alugarHome hgroup .areaUtil {
+	width: 67px;
+	text-indent: -99999px;
+	background: url(../img/iconesLegendaAlugar.jpg) center -80px no-repeat;
+}
+
+#alugarHome hgroup .fotos, #alugarHome hgroup .quartos, #alugarHome hgroup .suites, #alugarHome hgroup .garagem  {
+	width: 47px;
+	text-indent: -99999px;
+}
+
+#alugarHome hgroup .fotos {
+	background: url(../img/iconesLegendaAlugar.jpg) center 0 no-repeat;
+}
+
+#alugarHome hgroup .quartos {
+	background: url(../img/iconesLegendaAlugar.jpg) center -20px no-repeat;
+}
+
+#alugarHome hgroup .suites {
+	background: url(../img/iconesLegendaAlugar.jpg) center -40px no-repeat;
+}
+
+#alugarHome hgroup .garagem {
+	background: url(../img/iconesLegendaAlugar.jpg) center -60px no-repeat;
+}
+
+/*----- Legenda de Alugar -----*/
+
+.alugarLegenda {
+	list-style: none;
+	margin: 20px 0 0 0;
+}
+
+.alugarLegenda li {
+	float: left;
+	margin-right: 25px;
+	height: 15px;
+	color: #3c3c3d;
+	font-size: 11px;
+	padding: 5px 0 0 30px;
+}
+
+.alugarLegenda .fotos {
+	background: url(../img/iconesLegendaAlugar.jpg) left 0 no-repeat;
+}
+
+.alugarLegenda .quartos {
+	background: url(../img/iconesLegendaAlugar.jpg) left -20px no-repeat;
+}
+
+.alugarLegenda .suites {
+	background: url(../img/iconesLegendaAlugar.jpg) left -40px no-repeat;
+}
+
+.alugarLegenda .garagem {
+	background: url(../img/iconesLegendaAlugar.jpg) left -60px no-repeat;
+}
+
+.alugarLegenda .areaUtil {
+	background: url(../img/iconesLegendaAlugar.jpg) left -80px no-repeat;
+}
+
+/*----- Estilos da Tabela de alugar -----*/
+
+#alugarTable .fotos, #alugarTable .quartos, #alugarTable .suites, #alugarTable .garagem  {
+	width: 33px;
+	text-align: center;
+	font-size: 14px;
+}
+
+#alugarTable .localizacao {
+	width: 413px;
+}
+
+#alugarTable .bairro {
+	width: 144px;
+	font-weight: bold;
+}
+
+#alugarTable .valor {
+	width: 63px;
+	text-align: center;
+	font-size: 14px;
+}
+
+#alugarTable .areaUtil {
+	width: 53px;
+	text-align: center;
+}
+
+#alugarTable td {
+	border-right: 3px solid #f6f6f6;
+	border-bottom: 3px solid #f6f6f6;
+	padding: 7px;
+	font-family: verdana;
+	font-size: 12px;
+	color: #3c3c3c;
+}
+
+#alugarTable .simFoto {
+	text-indent: -999999px;
+	background: url(../img/simFoto.png) center no-repeat;
+}
+
+#alugarTable .naoFoto {
+	text-indent: -999999px;
+	background: url(../img/naoFoto.png) center no-repeat;
+}
+
+tr {
+	background: #fff;
+}
 
 /*---- Thumbs com descrição dos imóveis - Home & Interna ----*/
 

@@ -42,3 +42,17 @@
 	font-size: 0;
 	line-height: 0;
 }
+
+.ie7 #alugarTable {
+	margin-top: 13px;
+}
+
+.ie7 #alugarTable .simFoto {
+	text-indent: -999999px;
+	background: #fff url(../img/simFoto.png) center no-repeat;
+}
+
+.ie7 #alugarTable .naoFoto {
+	text-indent: -999999px;
+	background: #fff url(../img/naoFoto.png) center no-repeat;
+}
