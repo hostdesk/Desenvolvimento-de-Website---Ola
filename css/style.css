@@ -385,12 +385,18 @@ body {
 	text-transform: uppercase;
 }
 
+.filtro {
+	width: 980px;
+	height: 510px;
+	margin-bottom: 30px;
+	float: left;
+	margin-top: 40px;
+}
 
 .filtro h2 {
 	width: 140px;
 	height: 42px;
 	font-size: 24px;
-	color: #125892;
 	padding: 11px 0px 0px 20px;
 }
 
@@ -425,6 +431,11 @@ body {
 	padding: 12px;
 	margin-left: 20px;
 	background: transparent;
+}
+
+.filtroTop {
+	width: 980px;
+	height: 53px;
 }
 
 .filtroContent {
@@ -467,6 +478,7 @@ body {
 	height: 42px;
 	top: -1px;
 	padding-left: 58px;
+	height: 50px;
 }
 
 .filtroBottom .filtroPagerBg div {
@@ -503,8 +515,10 @@ body {
 
 #comprarHome .filtroTop {
 	background: url(../img/filtroComprarTop.png) top center no-repeat;
-	width: 980px;
-	height: 53px;
+}
+
+#comprarHome h2 {
+	color: #125892;
 }
 
 #comprarHome .filtroContent {
@@ -514,17 +528,8 @@ body {
 	height: 375px;
 }
 
-#comprarHome .imovelPreview {
-	margin-left: 19px;
-}
-
-#comprarHome .imovelPreview:first-child {
-	margin-left: 0px;
-}
-
 #comprarHome .filtroPagerBg {
 	background: url(../img/filtroComprarPagerBg.png) top left no-repeat;
-	height: 50px;
 }
 
 #comprarHomePager {
@@ -533,8 +538,43 @@ body {
 	border-right: 1px solid #dcdcdc;
 }
 
+/*---- Filtro da Home - #alugarHome----*/
+
+#alugarHome .filtroTop {
+	background: url(../img/filtroAlugarTop.png) top center no-repeat;
+}
+
+#alugarHome h2 {
+	color: #efae00;
+}
+
+#alugarHome .filtroContent {
+	background: #f6f6f6;
+	border: 1px solid #cfcfcf;
+	border-top: none;
+	height: 375px;
+}
+
+#alugarHome .filtroPagerBg {
+	background: url(../img/filtroAlugarPagerBg.png) top left no-repeat;
+}
+
+#alugarHomePager {
+	background: #f6f6f6;
+	border-bottom: 1px solid #cfcfcf;
+	border-right: 1px solid #cfcfcf;
+}
+
 
 /*---- Thumbs com descrição dos imóveis - Home & Interna ----*/
+
+#comprarHome .imovelPreview {
+	margin-left: 19px;
+}
+
+#comprarHome .imovelPreview:first-child {
+	margin-left: 0px;
+}
 
 .imovelPreview {
 	width: 220px;
@@ -606,6 +646,54 @@ body {
 }
 
 
+/*---- Publicidade OLÁ & OLÁ na rede - Home -----*/
+
+.anuncioHome {
+	height: 210px;
+	overflow: hidden;
+}
+
+#socialNetworkHome h2, #publicidadeHome h2, #socialNetworkHome h3 {
+	color: #4b4b4b;
+	font-family: 'anivers';
+	text-transform: uppercase;
+}
+
+#socialNetworkHome h2, #publicidadeHome h2 {
+	font-size: 24px;
+	margin-bottom: 15px;
+}
+
+#socialNetworkHome h3  {
+	font-size: 16px;
+}
+
+#facebookHome {
+	background: url(../img/facebookHomeBg.jpg) no-repeat;
+	width: 170px;
+	height: 83px;
+	padding: 10px 25px 20px 25px;
+	margin-bottom: 5px;
+}
+
+#facebookHome h3 {
+	margin-bottom: 6px;
+}
+
+#twitterHome a {
+	background: url(../img/twitterHomeBg.jpg) no-repeat;
+	width: 220px;
+	height: 115px;
+	display: block;
+	float: left;
+	margin-top: -50px;
+}
+
+#twitterHome h3 {
+	margin-top: 15px;
+	width: 140px;
+	margin-left: 25px;
+}
 
 
 
