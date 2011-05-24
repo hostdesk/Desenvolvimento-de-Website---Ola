@@ -70,7 +70,7 @@ button {  width: auto; overflow: visible; }
 .ie7 img { -ms-interpolation-mode: bicubic; }
 
 body, select, input, textarea { color: #444; }
-h1, h2, h3, h4, h5, h6 { font-weight: bold; }
+h1, h2, h3, h4, h5, h6 { font-weight: normal; }
 a, a:active, a:visited { color: #607890; }
 a:hover { color: #036; }
 
@@ -198,7 +198,6 @@ body {
 #pesquisaTop h3 {
 	font-family: 'anivers';
 	font-size: 18px;
-	font-weight: normal;
 }
 
 #pesquisaTop input {
@@ -379,17 +378,10 @@ body {
 
 /*---- Áreas que tenham Filtros ----*/
 
-#comprarHome header {
-	background: url(../img/filtroComprarTop.png) top center no-repeat;
-	width: 980px;
-	height: 53px;
-}
-
 .filtro h2, .filtro form label {
 	float: left;
 	display: block;
 	font-family: 'anivers';
-	font-weight: normal;
 	text-transform: uppercase;
 }
 
@@ -420,7 +412,7 @@ body {
 	float: left;
 	width: 98px;
 	margin: 10px 8px 0 10px;
-	font-size: 10px;
+	font-size: 11px;
 }
 
 .filtro .filtrar {
@@ -435,11 +427,97 @@ body {
 	background: transparent;
 }
 
+.filtroContent {
+	padding: 20px;
+	width: 938px;
+}
 
-/*---- Comprar - Home ----*/
+/*---- Comprar - Home & Interna----*/
 
+#comprarHome .filtroTop {
+	background: url(../img/filtroComprarTop.png) top center no-repeat;
+	width: 980px;
+	height: 53px;
+}
 
+#comprarHome .filtroContent {
+	background: #eff9fe;
+	border: 1px solid #dcdcdc;
+	border-top: none;
+}
 
+.imovelPreview {
+	width: 220px;
+	float: left;
+}
+
+#comprarHome .imovelPreview {
+	margin-left: 19px;
+}
+
+#comprarHome .imovelPreview:first-child {
+	margin-left: 0px;
+}
+
+.imovelPreview header {
+	background: url(../img/imovelPreviewHeading.jpg) no-repeat;
+	width: 200px;
+	height: 26px;
+	padding: 5px 10px;
+}
+
+.imovelPreview h3 {
+	font-size: 24px;
+	color: #fff;
+	font-family: 'anivers';
+}
+
+.imovelPreview img {
+	display: block;
+	border: 1px solid #dcdcdc;
+}
+
+.imovelPreview footer {
+	background: #f2f2f2;
+	border: 1px solid #dcdcdc;
+	position: relative;
+	color: #333;
+}
+
+.imovelPreview footer div {
+	border: 1px solid #fcfcfc;
+	border-top: none;
+	padding: 10px;
+}
+
+.imovelPreview footer h4 {
+	font-size: 23px;
+	font-family: 'anivers';
+	border-bottom: 1px solid #fff;
+	padding-bottom: 6px;
+}
+
+.imovelPreview footer ul {
+	margin: 0;
+	list-style: none;
+	border-top: 1px solid #d9d9d9;
+	padding-top: 10px;
+	font-family: helvetica, arial, sans-serif;
+}
+
+.imovelPreview footer ul li {
+	margin-bottom: 5px;
+}
+
+.imovelPreviewMoreDetail {
+	position: absolute;
+	bottom: -1px;
+	right: -1px;
+	width: 75px;
+	height: 38px;
+	text-indent: -9999px;
+	background: url(../img/imovelPreviewMoreDetail.png) no-repeat;
+}
 
 
 
