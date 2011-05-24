@@ -2,6 +2,8 @@
 	Joao Stein [http://www.joaostein.com.br + http://www.hostdesk.com.br]
 */
 
+/*----- Cycle Destaque Home -----*/
+
 $(function(){
 	$('#destaque').cycle({
 		fx: 'fade',
@@ -22,11 +24,19 @@ function criarPaginador(id, slide) {
 
 $('#carousel').jcarousel();
 
-	
 });
 
+/*---- Cycle Home Comprar -----*/
 
-
+$(function(){
+	$('#comprarHome .filtroContent').cycle({
+		fx: 'fade',
+		speed:    1200, 
+		timeout:  8000,
+		pager:  '#comprarHomePager',
+		pause: true
+	});
+});
 
 
 
