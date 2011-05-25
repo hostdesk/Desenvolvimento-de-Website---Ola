@@ -564,6 +564,15 @@ body {
 	border-right: 1px solid #cfcfcf;
 }
 
+#alugarHomePager a {
+	color: #efae00;
+}
+
+#alugarHomePager a:hover {
+	color: #ff8a01;
+}
+
+
 /*----- Títulos da Tabela de alugar -----*/
 
 #alugarHome hgroup h3 {

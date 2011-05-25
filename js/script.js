@@ -38,6 +38,19 @@ $(function(){
 	});
 });
 
+/*---- Cycle Home Alugar -----*/
+
+$(function(){
+	$('#alugarTable').cycle({
+		fx: 'scrollVert',
+		speed:    1200, 
+		timeout:  8000,
+		pager:  '#alugarHomePager',
+		pause: true
+	});
+});
+
+
 
 
 
