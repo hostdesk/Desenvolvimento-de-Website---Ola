@@ -56,3 +56,32 @@
 	text-indent: -999999px;
 	background: #fff url(../img/naoFoto.png) center no-repeat;
 }
+
+.ie7 #mainFooter {
+	margin-top: 45px;
+}
+
+.ie7 #listaServicos img {
+	position: absolute;
+}
+
+.ie7 #listaServicos ul {
+	margin-left: 200px;
+	list-style: none;
+}
+
+.ie7 #pesquisarServico {
+	font-size: 0;
+	line-height: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
