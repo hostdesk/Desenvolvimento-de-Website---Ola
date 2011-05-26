@@ -232,13 +232,13 @@ html {
 
 #pagerContainer {
 	background: url(../img/pagerPatternBg.jpg) top repeat-x;
-	margin-top: 15px;
 	height: 153px;
 }
 
 #destaque {
 	height: 300px;
 	overflow: hidden;
+	padding-bottom: 15px;
 }
 
 #destaque a {
@@ -254,7 +254,7 @@ html {
 	list-style: none;
 }
 
-.pager li {
+.pager li img {
 	float: left;
 	opacity: .5;
 }
@@ -263,7 +263,7 @@ html {
 	margin-left: 0;
 }
 
-.pager .activeSlide {
+.pager .activeSlide img {
 	opacity: 1;
 }
 
@@ -856,8 +856,11 @@ html {
 #mainFooter {
 	background: url(../img/footerPatternBg.png) bottom repeat-x;
 	float: left;
-	height: 300px;
 	width: 100%;
+}
+
+#mainFooterContentContainer {
+
 }
 
 /*---- Guia de Serviços - Footer ----*/
@@ -936,7 +939,7 @@ html {
 	border-top-right-radius: 0px;
 	border-bottom-right-radius: 10px;
 	border-bottom-left-radius: 10px;
-	padding: 0px 20px 10px 20px;
+	padding: 0px 20px 20px 20px;
 }
 
 #listaServicos ul {
@@ -969,8 +972,77 @@ html {
 }
 
 
+/*---- Social Network Footer ----*/
 
+#socialNetworkFooter {
+	background: url(../img/socialNetworkFooterBg.png) bottom center no-repeat;
+	width: 780px;
+	height: 44px;
+	margin-top: 72px;
+	padding: 15px 100px 20px 100px;
+}
 
+#socialNetworkFooter ul {
+	list-style: none;
+	margin: 0;
+	float: right;
+}
+
+#socialNetworkFooter ul li {
+	float: right;
+	margin-left: 20px;
+}
+
+#socialNetworkFooter ul li a {
+	width: 54px;
+	height: 54px;
+	display: block;
+	margin-top: 4px;
+}
+
+#socialNetworkFooter h2 {
+	float: right;
+	width: 150px;
+	font-size: 20px;
+	font-family: 'anivers';
+	color: #fff;
+	text-align: right;
+	margin-right: 10px;
+}
+
+/*---- Ícones das Redes Sociais - Footer -----*/
+
+#socialNetworkFooter .formspring {
+	background: url(../img/socialNetworkBottomIcons.png) -162px -54px;
+}
+
+#socialNetworkFooter .rss {
+	background: url(../img/socialNetworkBottomIcons.png) -108px -54px;	
+}
+
+#socialNetworkFooter .twitter {
+	background: url(../img/socialNetworkBottomIcons.png) -54px -54px;
+}
+
+#socialNetworkFooter .facebook {
+	background: url(../img/socialNetworkBottomIcons.png) 0px -54px;
+}
+
+#socialNetworkFooter .formspring:hover {
+	background: url(../img/socialNetworkBottomIcons.png) -162px 0px;
+}
+
+#socialNetworkFooter .rss:hover {
+	background: url(../img/socialNetworkBottomIcons.png) -108px 0px;	
+}
+
+#socialNetworkFooter .twitter:hover {
+	background: url(../img/socialNetworkBottomIcons.png) -54px 0px;
+}
+
+#socialNetworkFooter .facebook:hover {
+	background: url(../img/socialNetworkBottomIcons.png) 0px 0px;
+}
 
 
 

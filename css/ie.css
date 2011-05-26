@@ -75,6 +75,16 @@
 	line-height: 0;
 }
 
+.ie7 #socialNetworkFooter h2 {
+	float: right;
+}
+
+.ie7 #socialNetworkFooter ul {
+	width: 300px;
+	overflow: hidden;
+}
+
+
 
 
 
