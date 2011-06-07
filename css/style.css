@@ -447,7 +447,6 @@ html {
 }
 
 .filtroBottom {
-	background: red;
 	width: 980px;
 	position: relative;
 }
@@ -737,7 +736,7 @@ html {
 }
 
 .imovelPreview header {
-	background: url(../img/imovelPreviewHeading.jpg) no-repeat;
+	background: url(../img/imovelPreviewHeading.png) no-repeat;
 	width: 200px;
 	height: 26px;
 	padding: 5px 10px;
@@ -808,35 +807,35 @@ html {
 	overflow: hidden;
 }
 
-#socialNetworkHome h2, #publicidadeHome h2, #socialNetworkHome h3 {
+#socialNetworkHome h2, #publicidadeHome h2, #socialNetworkHome h3, #sideBar h2, #sideBar h3 {
 	color: #4b4b4b;
 	font-family: 'anivers';
 	text-transform: uppercase;
 }
 
-#socialNetworkHome h2, #publicidadeHome h2 {
+#socialNetworkHome h2, #publicidadeHome h2, #sideBar h2 {
 	font-size: 24px;
 	margin-bottom: 15px;
 }
 
-#socialNetworkHome h3  {
+#socialNetworkHome h3, #sideBar h3  {
 	font-size: 16px;
 }
 
-#facebookHome {
-	background: url(../img/facebookHomeBg.jpg) no-repeat;
+#facebook {
+	background: url(../img/facebookBg.png) no-repeat;
 	width: 170px;
 	height: 83px;
 	padding: 10px 25px 20px 25px;
 	margin-bottom: 5px;
 }
 
-#facebookHome h3 {
+#facebook h3 {
 	margin-bottom: 6px;
 }
 
-#twitterHome a {
-	background: url(../img/twitterHomeBg.jpg) no-repeat;
+#twitter a {
+	background: url(../img/twitterBg.png) no-repeat;
 	width: 220px;
 	height: 115px;
 	display: block;
@@ -844,7 +843,7 @@ html {
 	margin-top: -50px;
 }
 
-#twitterHome h3 {
+#twitter h3 {
 	margin-top: 15px;
 	width: 140px;
 	margin-left: 25px;
@@ -863,13 +862,14 @@ html {
 
 }
 
+
 /*---- Guia de Serviços - Footer ----*/
 
 #guiaServicosBottom {
 	width: 980px;
 }
 
-#guiaServicosBottom header {
+#guiaServicosBottom .guiaServicosHeader {
 	background: url(../img/guiaServicosBottom.png) center top no-repeat;
 	margin-top: 45px;
 	height: 56px;
@@ -1010,6 +1010,7 @@ html {
 	margin-right: 10px;
 }
 
+
 /*---- Ícones das Redes Sociais - Footer -----*/
 
 #socialNetworkFooter .formspring {
@@ -1044,6 +1045,106 @@ html {
 	background: url(../img/socialNetworkBottomIcons.png) 0px 0px;
 }
 
+
+/*---- Filtro Internas ----*/
+
+.filtroInternas {
+	margin-top: 30px;
+	margin-bottom: 60px;
+}
+
+.filtroInternas .filtroContent {
+	padding: 0;
+}
+
+.filtroInternas .filtroTop {
+	margin-bottom: 20px;
+	background: url(../img/compreImovelFiltroBg.png);
+	height: 40px;
+	width: 940px;
+}
+
+.filtroInternas .filtroTop h2 {
+	padding-left: 0;
+	width: 240px;
+	color: #fff;
+	font-weight: normal;
+	padding: 5px;
+	padding-left: 8px;
+	height: 30px;
+}
+
+.filtroInternas .filtroTop form {
+	width: 687px;
+	height: 40px;
+}
+
+.filtroInternas .filtrar {
+	text-indent: 0;
+	color: #fff;
+	font-size: 14px;
+	font-family: 'anivers';
+	text-transform: uppercase;
+	margin-left: 5px;
+	padding: 0;
+}
+
+
+/*----- Lista Comprar -----*/
+
+#listaComprar .imovelPreview {
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+#listaComprar .retirarMargin {
+	margin-right: 0;
+}
+
+
+/*----- Lista Internas Paginador -----*/
+
+#listaInternaPagerWrapper {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	position: relative;
+	height: 30px;
+}
+
+#listaInternaPager {
+	position: absolute;
+	right: 0;
+	padding: 4px;
+	height: 20px;
+}
+
+#listaInternaPager a {
+	display: block;
+	float: left;
+	text-decoration: none;
+	font-family: verdana;
+	font-size: 18px;
+	margin: 0 10px;
+}
+
+#listaComprar #listaInternaPagerWrapper {
+	background: #eff9fe;
+}
+
+
+/*---- Sidebar ----*/
+
+#sideBar {
+}
+
+#sideBar article {
+	float: left;
+}
+
+#sideBar h2 {
+	margin-bottom: 0;
+}
 
 
 

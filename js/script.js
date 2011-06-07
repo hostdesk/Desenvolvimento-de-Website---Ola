@@ -8,7 +8,7 @@ $(function(){
 	$('#destaque').cycle({
 		fx: 'fade',
 		speed:    1200, 
-		timeout:  1000,
+		timeout:  8000,
 		pager:  '.pager',
 		pagerAnchorBuilder: criarPaginador,
 		before: verificarAnimacao,
@@ -86,7 +86,9 @@ $(function(){
 $('html').pan({fps: 15, speed: 2, dir: 'left'});
 
 
+/*---- Adiciona classe aos terceiros elementos da lista-comprar -----*/
 
+$('#listaComprar .imovelPreview:nth-child(3n)').addClass('retirarMargin');
 
 
 

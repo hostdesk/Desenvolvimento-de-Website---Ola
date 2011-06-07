@@ -84,6 +84,20 @@
 	overflow: hidden;
 }
 
+.ie7 #listaInternaPagerWrapper {
+	margin-top: 30px;
+}
+
+.ie7 .filtroInternas .filtrar {
+	text-indent: 0;
+	color: #fff;
+	font-size: 14px;
+	font-family: 'anivers';
+	text-transform: uppercase;
+	margin-left: 5px;
+	padding: 0;
+	line-height: 18px;
+}
 
 
 
