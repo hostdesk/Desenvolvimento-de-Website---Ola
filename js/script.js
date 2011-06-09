@@ -46,14 +46,13 @@ $('.jcarousel-skin-tango').hover(pagerOverPause, pagerOutResume);
 
 function pagerOverPause(){
 	$('#destaque').cycle('pause');
-	$('#destaque').toggleClass('hovered');
+	$('#destaque').addClass('hovered');
 }
 
 function pagerOutResume(){
 	$('#destaque').cycle('resume');
-	$('#destaque').toggleClass('hovered');
+	$('#destaque').removeClass('hovered');
 }
-
 
 });
 
@@ -72,7 +71,7 @@ $(function(){
 /*---- Cycle Home Alugar -----*/
 
 $(function(){
-	$('#alugarTable').cycle({
+	$('#alugarTableHome').cycle({
 		fx: 'scrollVert',
 		speed:    1200, 
 		timeout:  8000,
@@ -90,14 +89,61 @@ $('html').pan({fps: 15, speed: 2, dir: 'left'});
 
 $('#listaComprar .imovelPreview:nth-child(3n)').addClass('retirarMargin');
 
+/*---- Imóvel Interna - Adicionar "/" nos telefones -----*/
 
+$('.dadosAnunciante .telefones span:not(:last-child)').each(formatarTel);
+function formatarTel() {
+	$(this).append(' /');
+}
 
+/*---- Adiciona classe aos segundos thumbs da página interna do imóvel -----*/
 
+$('.imovelInternaThumbWrapper a:nth-child(2n)').addClass('retirarMargin');
 
+/*----- Cycle da interna do Imóvel onde tem os thumbs -----*/
 
+$(function(){
+	$('#cycleThumbsImovelInterna').cycle({
+		fx: 'fade',
+		speed:    1200, 
+		timeout:  8000,
+		prev: '#imovelInternaPagerContainer .previous',
+		next: '#imovelInternaPagerContainer .next',
+ 		pager:  '#imovelInternaPager',
+		pause: true
+	});
+	
+	var larguraTotal= $('#imovelInternaPager').width();
+	var larguraFinal= - larguraTotal / 2 + 'px';
+	
+	var alturaTotal= $('#imovelInternaPager').height();
+	var alturaFinal= - alturaTotal / 2 + 'px';
+	
+	$('#imovelInternaPager').css({
+		marginLeft: larguraFinal,
+		marginTop: alturaFinal
+	});
 
+});
 
+/*----- Function para ativar ColorBox -----*/
 
+$(function(){
+	$('.imovelInternaThumbWrapper a').colorbox({
+		current: 'Imagem {current} de {total}',
+		previous: 'Anterior',
+		next: 'Próxima',
+		close: 'Fechar'
+	});
+});
+
+/*------ Cycle Publicade Home ------*/
+
+$(function(){
+	$('#cyclePublicidadeHome').cycle();
+	
+	
+})
 
 
 

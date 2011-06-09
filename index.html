@@ -456,18 +456,27 @@
 		<section id="publicidadeHome" class="grid_9">
 			<h2>Publicidade OLÁ</h2>
 			
-			<article class="anuncioHome grid_3 alpha">
-				<a href="#"><img src="img/temp/publicidadeHome1.jpg" alt="Publicidade 01" width="220" height="210" title="Publicidade 01"></a>
-			</article>
-			
-			<article class="anuncioHome grid_3">
-				<a href="#"><img src="img/temp/publicidadeHome2.jpg" alt="Publicidade 02" width="220" height="210" title="Publicidade 02"></a>
-			</article>
-			
-			<article class="anuncioHome grid_3 omega">
-				<a href="#"><img src="img/temp/publicidadeHome3.jpg" alt="Publicidade 03" width="220" height="210" title="Publicidade 03"></a>
-			</article>
-			
+			<div id="cyclePublicidadeHome">
+				<article class="anuncioHome grid_9 alpha omega">
+						<a href="#"><img src="img/temp/publicidadeHome1.jpg" alt="Publicidade 01" width="220" height="210" title="Publicidade 01"></a>
+						<a href="#"><img src="img/temp/publicidadeHome2.jpg" alt="Publicidade 02" width="220" height="210" title="Publicidade 02"></a>
+						<a href="#"><img src="img/temp/publicidadeHome3.jpg" alt="Publicidade 03" width="220" height="210" title="Publicidade 03"></a>
+				</article> <!-- fim .anuncioHome -->
+				
+				<article class="anuncioHome grid_9 alpha omega">
+						<a href="#"><img src="img/temp/publicidadeHome3.jpg" alt="Publicidade 01" width="220" height="210" title="Publicidade 01"></a>
+						<a href="#"><img src="img/temp/publicidadeHome2.jpg" alt="Publicidade 02" width="220" height="210" title="Publicidade 02"></a>
+						<a href="#"><img src="img/temp/publicidadeHome1.jpg" alt="Publicidade 03" width="220" height="210" title="Publicidade 03"></a>
+				</article> <!-- fim .anuncioHome -->
+				
+				<article class="anuncioHome grid_9 alpha omega">
+						<a href="#"><img src="img/temp/publicidadeHome3.jpg" alt="Publicidade 01" width="220" height="210" title="Publicidade 01"></a>
+						<a href="#"><img src="img/temp/publicidadeHome1.jpg" alt="Publicidade 02" width="220" height="210" title="Publicidade 02"></a>
+						<a href="#"><img src="img/temp/publicidadeHome2.jpg" alt="Publicidade 03" width="220" height="210" title="Publicidade 03"></a>
+				</article> <!-- fim .anuncioHome -->
+				
+			</div> <!-- fim #cyclePublicidadeHome -->
+						
 		</section> <!-- fim #publicidadeHome -->
 		
 		<section id="socialNetworkHome" class="grid_3">
@@ -485,7 +494,7 @@
 			
 		</section> <!-- fim #socialNetworkHome -->
 		
-		<section id="alugarHome" class="filtro">
+		<section id="alugarHome" class="filtro tabelaAlugar">
 			
 			<header class="filtroTop">
 				<h2>Alugar</h2>
@@ -532,7 +541,7 @@
 					<h3 class="areaUtil">Área útil em m²</h3>
 					<h3 class="valor">Valor</h3>
 				</hgroup>
-				<section id="alugarTable">
+				<section id="alugarTableHome" class="alugarTable">
 					<table>
 						<tbody>
 							<tr>
@@ -952,7 +961,7 @@
 							</tr>
 						</tbody>
 					</table>
-				</section> <!-- fim #alugarTable -->
+				</section> <!-- fim .alugarTable -->
 				<footer>
 					<ul class="alugarLegenda clearfix">
 						<li class="fotos">Fotos</li>

@@ -17,6 +17,10 @@
 	z-index: 20;
 }
 
+.ie8 #informacoesPrincipais span {
+	margin-top: 4px;
+}
+
 /*---- IE7 ----*/
 
 .ie7 #pesquisaTop input {
@@ -43,18 +47,26 @@
 	line-height: 0;
 }
 
-.ie7 #alugarTable {
+.ie7 .alugarTable {
 	margin-top: 13px;
 }
 
-.ie7 #alugarTable .simFoto {
+.ie7 .alugarTable .simFoto {
 	text-indent: -999999px;
 	background: #fff url(../img/simFoto.png) center no-repeat;
 }
 
-.ie7 #alugarTable .naoFoto {
+.ie7 .alugarTable .naoFoto {
 	text-indent: -999999px;
 	background: #fff url(../img/naoFoto.png) center no-repeat;
+}
+
+.ie7 #listaAlugar hgroup .localizacao {
+	width: 278px;
+}
+
+.ie7 #listaAlugar hgroup .quartos, .ie7 #listaAlugar hgroup .suites, .ie7 #listaAlugar hgroup .garagem  {
+	width: 39px;
 }
 
 .ie7 #mainFooter {
@@ -99,9 +111,17 @@
 	line-height: 18px;
 }
 
+.ie7 #contateAnunciante input {
+	margin-top: 4px;
+}
 
+.ie7 #contateAnunciante textarea {
+	margin-top: 18px;
+}
 
-
+.ie7 #imovelInternaPagerContainer {
+	margin-top: 20px;
+}
 
 
 
